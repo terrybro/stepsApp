@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+		font-family: helvetica, sans-serif;
+		color: #fff;
+		background-color: #000 !important;
+	}
+a:visited{
+	color: #fff;
+}
+#header{
+	font-size: 44px;
+	color: #fff !important;
+	font-family: "Indie Flower";
+	margin:12px 0 24px;
+	height:34px;
+}
+.topic {
+	position: relative;
+	display: inline-block;
+	width: 92px;
+	height: 80px;
+	padding: 4px 12px;
+	border: solid 1px #999;
+	margin: 6px 0;
+	background-color:rgb(89, 8, 10);
+	overflow: hidden;
+}
+.topic > div{
+	display: inline;
+	position: relative;
+}
+#container h2{
+	font-size: 44px;
+	margin: 4px 22px 8px;
+	text-shadow: 12px 2px #000;
+
+
+
+}
+#container h1{
+	font-size: 68px;
+	margin: 12px;
+}
+#container {
+
+		width:976px;
+		margin: 12px auto 0;
+
+}
+#settings{
+	width: 88px;
+	float: right;
+}
+#lessons{
+	width: 976px;
+	margin: 0 auto 14px;
+	height: 400px;
+	background-color: rgb(3, 58, 103);
+	border: solid 1px #666;
+	font-size: 222px;
+	padding: 34px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+#lessons div{
+	font-size: 16px;
+	display: inline-block;
+}
+.strap{
+	font-size: 44px;
+	float: right;
+}
+.col {
+	width:310px;
+	float: left;
+}
+.scroll{
+	width: 66px;
+	float: right;
+	cursor: pointer;
+	text-align: right;
+}
+p{
+	font-size: 11px;
+}
+span{
+	font-size: 0.3em;
+
+}
+nav{
+	border-top: solid 1px #333;
+	margin: 12px 0 6px;
+	padding: 8px 0 0;
+	clear: both;
+}
+footer{
+	width: 976px;
+	margin: 0 auto 0;
+	padding: 12px 0 200px;
+	color: #666;
+	font-size: 10px;
+	width: 100%;
+	height: 100%;
+	border-top: solid 1px #333;
+
+}
+.settings {
+	background-color:rgb(89, 8, 10);
+	border:solid 1px #666;
+	padding: 12px;
+    margin-top: -220px;
+		height: 100px;
+    width: 500px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 400px;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.tooltip{
+	cursor: pointer;
+}
+.tooltip:hover{
+	opacity: 0.6;
+}
